@@ -25,8 +25,6 @@
     grid-template-columns: repeat(3, 18rem); /* Creates three equal-width columns */
     gap: 1rem; /* Adds space between the cards */
 }
-
-
 .card {
     width: 18rem;           
   }
@@ -60,6 +58,9 @@ article {
   padding: 10px;
 }
 
+section{
+  align-content: center;
+}
 
 
 </style>
@@ -77,10 +78,10 @@ article {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="Menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="pagina1.html">Call of duty</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -140,25 +141,58 @@ article {
 <!-- final del carrusel-->
 
 <hr>
-<div class="sidebar">
-  <section>
-      <h2>Recent Articles</h2>
-      <ul>
-          <li><a href="#">Article 1 Title</a></li>
-          <li><a href="#">Article 2 Title</a></li>
-          <li><a href="#">Article 3 Title</a></li>
-          <li><a href="#">Article 4 Title</a></li>
-      </ul>    
-  </section>
 
+  <main>
+    <div class="container">
+        <!-- Article 1 -->
+        <article>
+            <header>
+                <h2>Halo</h2>
+                <p><strong>By Ary Rafael</strong> | <em>December 3, 2024</em></p>
+            </header>
+            <section>
+                <p>Halo es una franquicia de videojuegos de ciencia ficción creada y desarrollada por Bungie Studios hasta Halo: 
+                  Reach, y gestionada ahora por 343 Industries, propiedad de Xbox Game Studios. La serie se centra en una guerra 
+                  interestelar entre la humanidad y una alianza teocrática de alienígenas conocidos como Covenant. Más adelante se suman más amenazas como los Floods y los Prometeos.</p>
+                
 
+            </section>
+            <footer>
+                <p><a href="#comments">Leave a comment</a></p>
+            </footer>
+        </article>
 
+        <!-- Article 2 -->
+        <article>
+            <header>
+                <h2>Historia</h2>
+                <p><strong>By Ary Rafael</strong> | <em>December 2, 2024</em></p>
+            </header>
+            <section>
+                <p>En el pasado distante, una raza de muy avanzada tecnología, conocida como los Forerunner, luchó contra una especie parásita llamada Flood. Esta, que se propaga mediante la infestación de otras formas de vida, 
+                  rebasó las capacidades de los Forerunners e infestó casi toda la galaxia. Una de las especies afectadas fue la humana, quienes se vieron forzados a aventurarse al espacio y entrar en el conflicto. Los Forerunners, 
+                  exhaustos de su guerra y tras haber analizado todas las posibles opciones, decidieron recurrir a su última opción: un arma definitiva en contra de los Flood. 
+                  Utilizando una instalación conocida como "el Arca", construyeron gigantescas estructuras en forma de anillo, los Halos. La matriz de Halos, una vez activa, destruiría toda la vida inteligente de la galaxia, 
+                  forzando a los Flood a morir de hambre. Intentando resistir hasta el último momento, los Forerunner activaron los anillos, acabando con toda la vida consciente y con ellos mismos, salvo por los vivos, embriones y ADN
+                  que se encontraban en el Arca, que estaban programados para que después de la activación de los Halos y la muerte de los Flood, se repoblara la galaxia entera, como si nada hubiera pasado, borrando así, casi todo rastro de ellos. 
+                  Después de que las Instalaciones hayan sido activadas, los Forerunners sobrevivientes re-esparcieron la vida ya sea con embriones preservados o especímenes vivos por toda la galaxia. Una vez que completaron esto, los Forerunner decidieron dejar la galaxia, 
+                  el motivo por el cual hayan hecho esto es desconocido, tal vez haya sido para poblar 
+                  con otras galaxias o escapar del alcance de los Halos.</p>
+               
+            </section>
+            <footer>
+                <p><a href="#comments">Leave a comment</a></p>
+            </footer>
+        </article>
 
+        <!-- More articles can be added here -->
+    </div>
+</main>
 
 
 
 <!-- cards comienzo-->
-<div class="div-cards">
+<div class="div-cards" style="margin-left: 100px;">
     <div class="card" style="width: 18rem;">
         <img src="imagenes2/halo4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
